@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Playwright & Testing
+test-results/
+playwright-report/
+blob-report/
+.pytest_cache/
+reports/
+*.html
+screenshots/
+videos/
+
+# BrowserStack & Secrets
+.env
+browserstack_local.log
+bstack_session_*.json
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,37 @@
+{
+  "test_users": {
+    "valid_user": {
+      "username": "demouser",
+      "password": "testingisfun99"
+    },
+    "locked_user": {
+      "username": "locked_user",
+      "password": "testingisfun99",
+      "expected_error": "Your account has been locked."
+    },
+    "existing_orders_user": {
+      "username": "existing_orders_user",
+      "password": "testingisfun99"
+    },
+    "fav_user": {
+      "username": "fav_user",
+      "password": "testingisfun99"
+    },
+    "image_bug_user": {
+      "username": "image_not_loading_user",
+      "password": "testingisfun99"
+    }
+  },
+  "shipping_address": {
+    "first_name": "Alex",
+    "last_name": "Tester",
+    "address": "456 Automation Boulevard",
+    "province": "California",
+    "postal_code": "94107"
+  },
+  "vendors": ["Apple", "Samsung", "Google", "OnePlus"],
+  "sort_options": [
+    { "label": "Lowest to highest", "value": "lowestprice" },
+    { "label": "Highest to lowest", "value": "highestprice" }
+  ]
+}

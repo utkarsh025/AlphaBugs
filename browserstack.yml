@@ -1,0 +1,42 @@
+# BrowserStack SDK Configuration File
+# Documentation: https://www.browserstack.com/docs/automate
+
+# Credentials sourced from environment variables for security
+userName: "${BROWSERSTACK_USERNAME}"
+accessKey: "${BROWSERSTACK_ACCESS_KEY}"
+
+# Project and Build Identification
+projectName: AlphaBugs
+buildName: AlphaBugs Testathon E2E Suite
+buildIdentifier: '#${BUILD_NUMBER}'
+
+# Cross-Browser & Cross-Platform Execution Matrix
+platforms:
+  - os: Windows
+    osVersion: '11'
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Safari
+    browserVersion: latest
+  - os: Windows
+    osVersion: '10'
+    browserName: Edge
+    browserVersion: latest
+  - os: Windows
+    osVersion: '11'
+    browserName: Firefox
+    browserVersion: latest
+
+# Test Observability & Diagnostics
+testObservability: true
+browserstackLocal: false
+networkLogs: true
+consoleLogs: info
+video: true
+percy: false
+
+# Framework Settings
+framework: pytest
+source: python:playwright:v1
