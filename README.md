@@ -19,7 +19,6 @@ The target application under test is [https://bugbash.online/?signin=true](https
 | **Step 1: Test Management** | Documented test suite with critical user flows and edge cases | *https://test-management.browserstack.com/projects/4097466/folder/56644980/test-cases?public_token=c4c8460fcd8f9a02356df89da58c2ccecf2cce602e23fa082f46672b8666dc4b28b48a3f09b429a77f44cf3400003c63ab3834f686bcfa9485e6636a5d9db3a7&public_token_id=24088* |
 | **Step 2: Functional Automation Suite** | Complete source code with BrowserStack integration | [GitHub Repository](https://github.com/utkarsh025/AlphaBugs) |
 | **Step 3: Test Runs in Test Management** | Test run results linked with Test Management | *https://test-management.browserstack.com/projects/4097466/builds/AlphaBugs+Testathon+Full+Suite/1?public_token=a7ae96973d8874c2e2deb7c33693fc1a960f2d31a3615280096696fa1605ca18f186b55d6f18fc65c41e0894a1e67a3b6a01435beefa7c4d3c72e221b1425909&public_token_id=24087* |
-| **Step 4: Test Reporting & Analytics** | BrowserStack Test Observability / Automate Dashboard | [Live Automate Dashboard Run](https://automate.browserstack.com/dashboard/v2/public-build/N2RGOFA0Ykd0OGZzSjEwcS9sVWxsOFR3M2NzSk5lZzRwektLYmZ0R2tBZlZmdjdNSVV3L3d2Q1BvOGxuQVdnak96a1hQNmcxeTJOWWNzYXRKMThWbmc9PS0tcnJZT0FGSjBzV2xFM0lKcUg4WmxKQT09--a28416f36b422ddd24c0c57e5c34525a676aea29) |
 
 ---
 
